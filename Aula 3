@@ -11,3 +11,130 @@ divisao = (numero1 / numero2)
 
 
 print("\nO resultado da soma foi :", soma, "\nO resultado da subtração foi : ", subtracao, "\nO resultado da multiplicação foi: ", multiplicacao, "\nO resultado da divisão foi: ", divisao )
+
+
+######a = 5
+######b = 10
+######
+######print (a != b) #True
+######print (a < b) #True
+######
+######
+######variavel = int(input("Digite sua idade: "))
+######
+######if variavel >= 18:
+######    print ("Você é maior de idade")
+######else:
+######    print("Você é menor de idade")
+######
+######senha = (int(input("Digite uma senha")))
+######if senha == 1234:
+######    print ("Acesso Permitido")
+######else:
+######    print ("Acesso Negado")
+######
+####
+######numero = int(input("Digite um número: "))
+######if numero >=0:
+######    print ("Número Positivo")
+######
+######else:
+######    print ("Número Negativo")####
+######
+######temperatura = int(input("Digite a temperatura em graus: "))
+######if (temperatura > 30):
+######    print ("Está calor")
+######
+######else:
+######    print ("Está fresco")
+####
+####idade = int(input("Digite a sua idade: "))
+####if (idade >= 16):
+####    print ("Você Pode Votar")
+####else:
+####    print("Você não pode votar")
+####
+##
+####numero = int(input("Digite um número: "))
+####if numero % 2 == 0 :
+####    print ("O número é par")
+####else:
+####    print ("O número é ímpar")
+##
+######a = 5
+######b = 10
+######
+######print (a != b) #True
+######print (a < b) #True
+######
+######
+######variavel = int(input("Digite sua idade: "))
+######
+######if variavel >= 18:
+######    print ("Você é maior de idade")
+######else:
+######    print("Você é menor de idade")
+######
+######senha = (int(input("Digite uma senha")))
+######if senha == 1234:
+######    print ("Acesso Permitido")
+######else:
+######    print ("Acesso Negado")
+######
+####
+######numero = int(input("Digite um número: "))
+######if numero >=0:
+######    print ("Número Positivo")
+######
+######else:
+######    print ("Número Negativo")####
+######
+######temperatura = int(input("Digite a temperatura em graus: "))
+######if (temperatura > 30):
+######    print ("Está calor")
+######
+######else:
+######    print ("Está fresco")
+####
+####idade = int(input("Digite a sua idade: "))
+####if (idade >= 16):
+####    print ("Você Pode Votar")
+####else:
+####    print("Você não pode votar")
+####
+##
+####numero = int(input("Digite um número: "))
+####if numero % 2 == 0 :
+####    print ("O número é par")
+####else:
+####    print ("O número é ímpar")
+####
+####
+####nota = 8
+####
+####if nota > 9:
+####    print("Excelente")
+####elif nota > 7:
+####    print("Bom")
+####else:
+####    print ("Precisa Melhorar")
+####
+####nota = 8
+####
+####if nota > 9:
+####    print("Excelente")
+####elif nota > 7:
+####    print("Bom")
+####else:
+####    print ("Precisa Melhorar")
+##
+##nota_aluno = (int(input("Digite sua nota: ")))
+##if nota_aluno >= 9:
+##    print ("Aprovado Com Excelência")
+##elif nota_aluno >=7:
+##    elif nota_aluno > 9:
+##    print("Aprovado")
+##    elif nota_aluno >=5:
+##    elif nota_aluno > 7
+##    print ("Recuperação")
+##else nota_aluno > 5
