@@ -1,0 +1,13 @@
+## Final da aula 2 com Começo da aula 3 ## 
+
+numero1 = int(input("Digite um número: "))
+numero2 = int (input("Digite outro número: "))
+
+
+soma = (numero1 + numero2)
+subtracao = (numero1 - numero2)
+multiplicacao = (numero1 * numero2)
+divisao = (numero1 / numero2)
+
+
+print("\nO resultado da soma foi :", soma, "\nO resultado da subtração foi : ", subtracao, "\nO resultado da multiplicação foi: ", multiplicacao, "\nO resultado da divisão foi: ", divisao )
