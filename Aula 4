@@ -1,0 +1,444 @@
+
+
+
+##############idade = int(input("Digite sua idade: "))
+##############carteira = input("Tem Habilitação? 's' ou 'n' :")
+##############
+##############if idade >= 18:
+##############    if carteira == "s":
+##############        print ("Pode Dirigir")
+##############
+##############    else:
+##############        print("Precisa de Habilitação")
+##############else:
+##############    print("Você é menor")
+############## exercicio 2 ##
+############nota = int(input("Digite a sua nota: "))
+############frequencia = int(input("Digite a sua frequência: "))
+############
+############if nota >= 7:
+############    if frequencia >= 75:
+############    
+############        print ("Aprovado")
+############
+############    if frequencia < 75:
+############        print ("Reprovado por faltas")
+############
+############else:
+############    print ("Reprovado por nota")
+############ exercicio 3 ##
+##########usuario = str(input("Digite o nome de usuário: "))
+##########senha = int(input("Digite a sua senha: "))
+##########senha == 1234
+##########
+##########if usuario == "admin" :
+##########    if senha == 1234:
+##########        print ("Login realizado com sucesso")
+##########
+##########    else:
+##########        print ("Senha incorreta")
+##########
+##########if usuario != "admin":
+##########    print ("Usuário Inválido")
+##########
+########
+########print ("--- Calculadora Simples ---")
+########print ("1 - Somar")
+########print ("2 - Subtrair")
+########print ("3 - Multiplicar")
+########print ("4 - Dividir")
+########
+########opcao = int(input("Escolha uma opcão (1-4): "))
+########num1 = int(input("Digite um número: "))
+########num2 = int(input("Digite outro número: "))
+########soma = num1+num2
+########sub = num1-num2
+########multi = num1*num2
+########div = num1/num2
+########
+########if opcao == 1:
+########    print ("O resultado da soma é: ", soma)
+########elif opcao ==2:
+########    print ("O resultado da subtração é: ", sub)
+########elif opcao ==3:
+########    print ("O resultado da multiplicação é: ", multi)
+########elif opcao ==4:
+########    if num2 !=0:
+########        print ("O resultado da divisão é: ", num1/num2)
+########    else:
+########        print ("Não pode dividir")
+########else:
+########    print("ERRO")
+########
+########
+########
+########
+########
+########
+########
+########
+##################idade = int(input("Digite sua idade: "))
+##############carteira = input("Tem Habilitação? 's' ou 'n' :")
+##############
+##############if idade >= 18:
+##############    if carteira == "s":
+##############        print ("Pode Dirigir")
+##############
+##############    else:
+##############        print("Precisa de Habilitação")
+##############else:
+##############    print("Você é menor")
+############## exercicio 2 ##
+############nota = int(input("Digite a sua nota: "))
+############frequencia = int(input("Digite a sua frequência: "))
+############
+############if nota >= 7:
+############    if frequencia >= 75:
+############    
+############        print ("Aprovado")
+############
+############    if frequencia < 75:
+############        print ("Reprovado por faltas")
+############
+############else:
+############    print ("Reprovado por nota")
+############ exercicio 3 ##
+##########usuario = str(input("Digite o nome de usuário: "))
+##########senha = int(input("Digite a sua senha: "))
+##########senha == 1234
+##########
+##########if usuario == "admin" :
+##########    if senha == 1234:
+##########        print ("Login realizado com sucesso")
+##########
+##########    else:
+##########        print ("Senha incorreta")
+##########
+##########if usuario != "admin":
+##########    print ("Usuário Inválido")
+##########
+########
+########print ("--- Calculadora Simples ---")
+########print ("1 - Somar")
+########print ("2 - Subtrair")
+########print ("3 - Multiplicar")
+########print ("4 - Dividir")
+########
+########opcao = int(input("Escolha uma opcão (1-4): "))
+########num1 = int(input("Digite um número: "))
+########num2 = int(input("Digite outro número: "))
+########soma = num1+num2
+########sub = num1-num2
+########multi = num1*num2
+########div = num1/num2
+########
+########if opcao == 1:
+########    print ("O resultado da soma é: ", soma)
+########elif opcao ==2:
+########    print ("O resultado da subtração é: ", sub)
+########elif opcao ==3:
+########    print ("O resultado da multiplicação é: ", multi)
+########elif opcao ==4:
+########    if num2 !=0:
+########        print ("O resultado da divisão é: ", num1/num2)
+########    else:
+########        print ("Não pode dividir")
+########else:
+########    print("ERRO")
+########
+########
+########
+########
+########
+########
+########
+########
+########
+########
+########
+########
+######
+######
+######idade = int(input("Digite a sua idade: "))
+######nota = int(input("Digite a sua nota: "))
+######
+######if idade >= 14 and nota >=7:
+######    print ("Você pode participar do campeonato!")
+######else:
+######    print ("Você não atende aos requisitos.")
+####
+########
+########
+########
+######
+######
+######idade = int(input("Digite a sua idade: "))
+######nota = int(input("Digite a sua nota: "))
+######
+######if idade >= 14 and nota >=7:
+######    print ("Você pode participar do campeonato!")
+######else:
+######    print ("Você não atende aos requisitos.")
+####
+####
+######idade = int(input("Digite a sua idade:"))
+######nivel_do_jogador = int(input("Digite o seu nível: "))
+######
+######if idade>=12 and nivel_do_jogador>=5:
+######    print("Você pode entrar no jogo")
+######else:
+######    print("Acesso negado!")
+####
+####
+######contador = 3
+######
+######while contador > 0:
+######    print ("Contando", contador)
+######    contador -=1
+######else:
+######    print ("Fim da Contagem")
+####
+######while True:
+######    print ("Eu estou preso dentro de um loop.")
+####
+####maior = 0
+####numero = int(input("Digite um número ou -1 para parar: "))
+####
+####while numero != -1:
+####    if numero > maior:
+####        maior = numero
+####    numero = int (input("Digite um número ou -1 para parar: "))
+####
+####print ("O maior número é: ", maior)
+##
+##
+##pares = 0
+##impares = 0
+##
+##numero = int(input("Digite um número ou 0 para parar: "))
+##
+##while numero != 0:
+##    if numero % 2 == 0:
+##        pares += 1
+##    else:
+##        impares += 1
+##
+##    numero = int(input("Digite um número ou 0 para parar: "))
+##
+##print("Pares:", pares, "Ímpares", impares)
+
+
+##
+##for i in range ( 6):
+##    print ("Contando", i)
+
+##
+##for i in range(2, 10, 3):
+##    print (i)
+
+##for i in range(5):
+##    if i == 3:
+##        break
+##    print (i)
+
+##for i in range (5):
+##    if i == 3:
+##        continue
+##    print(i)
+
+##
+##import random
+##
+##segredo = random.randint (1, 10)
+##print ("Número secreto gerado:", segredo)
+
+##import random
+##segredo = random.randint(1,10)
+##tentativa = 3
+##
+##while tentativa > 0:
+##    palpite = int(input("Adivinhe o número de (1 a 10): "))
+##    if palpite == segredo:
+##        print ("Parabéns, Você acertou!")
+##        break
+##    else:
+##        print ("Você errou, tente novamente!")
+##        tentativa -=1
+##else:
+##    print("Você perdeu!, o numero segredo era:", segredo)
+
+
+while True
+idade = (int("Digite a sua idade: "))
+    if idade < 0:
+        print("Idade inváida. Tente novamente.")
+    else:
+        
+    if idade < 18:
+    print ("Você é menor de idade")
+break
+else:
+        print("Você é idoso")
+
+
+###### Atividade 1 ##
+######usuario = input("Digite o nome de usuário: ")
+######senha = int(input("Digite a sua senha: "))
+######tentativa = 3
+######
+######while tentativa > 0:
+######        print ("Você tem 3 tentativas apenas")
+######        if usuario == admin and senha == 1234:
+######            print ("Login realizado com sucesso:")
+######            break
+######        else:
+######            print ("Tente Novamente, 3 tentativas restantes ")
+######            tentativa =-1
+######
+####
+###### Atividade 2 ##
+####
+####
+######
+######i = int(input("Digite Cinco números: "))
+######for i in range (5):
+######    if i > 0:
+######        print ("Número Positivo")
+######    elif i == 0:
+######        print ("zero")
+######    else:
+######        print ("Negativo")
+######
+######
+######import random
+######tentativa = 3
+######
+######while tentativa > 0:
+######    print ("Você tem 3 tentativas: ")
+######    numero = int(input("Digite o número: "))
+######    if numero == random.randint(1, 10):
+######        print ("Você Acertou")
+######        break
+######    else:
+######        print ("Você Errou, tente novamente")
+####
+####nota1 = int(input("Digite a sua primeira nota: "))
+####nota2 = int(input("Digite a sua segunda nota: "))
+####nota3 = int(input("Digite a sua terceira nota: "))
+####media = nota1 + nota2 + nota3 /3
+####
+####for i in range (1):
+####
+####    if nota1 >=7 and nota1 <=10:
+####        print ("Aprovado")
+####    elif nota1 <7 and nota1 >=5:
+####        print ("Recuperação")
+####    else:
+####        print ("Reprovado")
+####for i in range (1):
+####
+####    if nota2 >=7 and nota2 <=10:
+####        print ("Aprovado")
+####    elif nota2 <7 and nota2 >=5:
+####        print ("Recuperação")
+####    else:
+####        print ("Reprovado")
+####for i in range (1):
+####
+####    if nota3 >=7 and nota3 <=10:
+####        print ("Aprovado")
+####    elif nota3 <7 and nota3 >=5:
+####        print ("Recuperação")
+####    else:
+####        print ("Reprovado")
+####        
+####print ("A sua média é: ", media)
+####
+####
+####
+###### Código Certo ###
+####soma = 0
+####for i in range (3):
+####    nota = float(input("Digite a nota:"))
+####    soma += nota
+####    if nota < 5:
+####        print ("Reprovado")
+####    elif nota < 7:
+####        print ("Recuperação")
+####    else:
+####        print ("Aprovado")
+####
+####else:
+####    media = soma / 3
+####    print("Média final: ", media)
+##
+####while True: ##Aq tinha que ser variável para parar
+####    a = int(input("Digite o primeiro número (0 para sair): "))
+####    b = int(input("Digite o segundo número (0 para sair): "))
+####    if a == 0 or b == 0:
+####        break
+####    if a % b == 0 or b % a == 0:
+####        print ("São Múltiplos")
+####    else:
+####        print ("Não são Múltiplos")
+####else:
+####    print("Fim da verificação")
+##
+##
+##numero = int (input("Digite um número: "))
+##par = numero/2
+##impar = numero%2
+##
+##for i in range (n+1):
+##    if i % 2 == 0:
+##    print (i)
+##else:
+##    print("")
+##
+### Guardado para Desafio ###
+##print ("----Menu Interativo----")
+##print("1 - Dizer Olá \n2 - Mostrar uma curiosidade \n3 - Sair")
+##
+##numero = int(input("Digite um número: "))
+##while numero != 3:
+##    if numero == 1:
+##        print ("Olá")
+##        break
+##    elif numero == 2:
+##        print ("O seu corpo pode queimar um componente na placa mãe")
+##        break
+##    elif numero == 3:
+##        print ("Saiu do Menu Interativo")
+##        break
+##else:
+##    print ("Opção Invalida, Tente Novamente")
+#### Errado Guardado para desafio ###
+##print ("--- \nCofrinho Digital --- ")
+##total = 0.0
+##resposta = "s"
+##
+##while resposta.lower() = "s":
+##    valor = float(input("Digite o valor para depositar: R$ "))
+##    if valor > 0:
+##        total += valor
+##    else:
+##        print("Valor inválido> Tente novamente.")
+##    resposta = input("Digite se quer continuar s/n: ")
+
+
+saldo = 100
+print ("---- Bem vindo ao Banco Inteligente ----")
+tela_principal = str(input("O que deseja Fazer: \n1 - Sacar \n2 - Olhar o Saldo \n0 - Sair"))
+numero = int(input("Digite um número para sacar ou 0 para sair: "))
+
+if numero == 1 and numero == 2:   
+    
+    while numero > 0:
+        if numero > saldo:
+            print ("Saldo Insuficiente, favor digitar o valor do saldo: ", saldo)
+        elif numero < saldo:
+            retirada = int(input("Quanto deseja retirar? : "))
+        if retirada > saldo:
+            print ("O dinheiro que você quer retirar é inválido: ")
+else:
+    print ("Você saiu do Banco Inteligente")
